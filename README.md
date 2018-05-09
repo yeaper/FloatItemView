@@ -8,7 +8,43 @@ RecyclerView 上下滑动时，item可以实现悬浮在顶部，很多通讯录
 ![效果演示](https://github.com/yeaper/FloatItemView/blob/master/showApp.gif)
 
 
-1. 使用
+1. 添加依赖
+
+- gradle配置
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+
+dependencies {
+    implementation 'com.github.yeaper:FloatItemView:1.0.0'
+}
+```
+
+- Maven配置
+
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+
+<dependency>
+    <groupId>com.github.yeaper</groupId>
+    <artifactId>FloatItemView</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+2. 使用
 
 先在布局文件下,加入控件
 
@@ -46,7 +82,7 @@ RecyclerView 上下滑动时，item可以实现悬浮在顶部，很多通讯录
 </LinearLayout>
 ```
 
-再获取悬浮布局
+再获取悬浮布局相关View
 
 ```java
 floatBar = LayoutInflater.from(this).inflate(R.layout.layout_float_bar, null, false);
