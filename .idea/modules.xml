@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FloatItemView.iml" filepath="$PROJECT_DIR$/FloatItemView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatitemview/floatitemview.iml" filepath="$PROJECT_DIR$/floatitemview/floatitemview.iml" />
+    </modules>
+  </component>
+</project>
